@@ -31,11 +31,11 @@ const Header = () => {
             <a href="#contact" className="text-foreground hover:text-primary transition-colors">
               Contact
             </a>
-            <Button variant="ghost" size="sm">
-              Sign In
+            <Button variant="ghost" size="sm" asChild>
+              <a href="/auth">Sign In</a>
             </Button>
-            <Button size="sm" className="bg-hero-gradient hover:shadow-glow">
-              Download App
+            <Button size="sm" className="bg-hero-gradient hover:shadow-glow" asChild>
+              <a href="/dashboard">Open App</a>
             </Button>
           </div>
 
